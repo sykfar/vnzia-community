@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Sicherheitslücke vertraulich melden
+    url: https://github.com/sykfar/vnzia-community/security/advisories/new
+    about: Sicherheits- und Datenschutzprobleme bitte niemals als öffentliches Issue melden.

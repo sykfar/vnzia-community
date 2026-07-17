@@ -1,0 +1,54 @@
+name: Feature Request
+description: Schlage eine neue Funktion oder Verbesserung für Vnzia vor.
+title: "[Feature] "
+labels:
+  - enhancement
+  - "status: needs-review"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du Vnzia besser machst! Beschreibe deinen Wunsch aus deiner Nutzungsperspektive —
+        technische Details sind willkommen, aber nicht nötig.
+
+        **Bitte keine privaten Daten:** keine Reisepläne, Standorte, Zugangsdaten oder personenbezogenen Informationen.
+  - type: textarea
+    id: wunsch
+    attributes:
+      label: Wunsch
+      description: Was möchtest du an dieser Stelle tun können?
+      placeholder: "Ich möchte …, damit ich …"
+    validations:
+      required: true
+  - type: textarea
+    id: nutzen
+    attributes:
+      label: Erwarteter Nutzen
+      description: Welchen Nutzen hätte das für dich?
+      placeholder: "Das würde mir helfen, weil …"
+    validations:
+      required: false
+  - type: dropdown
+    id: produktbereich
+    attributes:
+      label: Produktbereich
+      description: Wo in Vnzia gehört dein Vorschlag hin?
+      options:
+        - Reiseplanung
+        - Karten und Orte
+        - Community und Social Travel
+        - Reiseblog und Inspiration
+        - Mobile Experience
+        - KI-Agenten
+        - Performance und Zuverlässigkeit
+        - Datenschutz und Sicherheit
+        - Barrierefreiheit
+    validations:
+      required: false
+  - type: input
+    id: kontext
+    attributes:
+      label: Nutzungskontext
+      description: "Optional: In welcher Situation ist der Wunsch entstanden (z. B. Tagesplanung unterwegs, Nachbereitung am Mac)?"
+    validations:
+      required: false

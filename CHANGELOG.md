@@ -9,7 +9,10 @@ Interne Refactorings, Architekturänderungen, Sicherheitsdetails und nicht öffe
 ### Added
 
 - Öffentliches Community-Repository für Feature Requests, Bug Reports und Roadmap
-- Strukturierte Formulare für Produktfeedback
+- Strukturierte Formulare für Produktfeedback (Feature Request und Bug Report als Issue Forms)
+- Feature Requests und Bug Reports direkt aus der Vnzia-Beta-App (iOS und macOS) — erscheinen hier als Issues mit dem Label `source: in-app-beta`, Identifier-Schema `VNZ-FR-<nummer>` / `VNZ-BUG-<nummer>`
+- Vertraulicher Meldeweg für Sicherheitsprobleme über GitHubs „Privately report a security vulnerability"
+- Status-, Quellen- und Plattform-Labels für den öffentlichen Triage-Prozess
 - Öffentliche Produkt-Roadmap
 
 ### Changed

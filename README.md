@@ -29,6 +29,12 @@ Ein guter Feature Request beschreibt:
 4. den betroffenen Produktbereich,
 5. mögliche Alternativen oder Beispiele.
 
+### Direkt aus der Beta-App
+
+Beta-Testerinnen und -Tester können Feature Requests und Bug Reports auch direkt aus der Vnzia-App einreichen („Feature vorschlagen" bzw. „Problem melden"). Diese Einreichungen erscheinen hier als öffentliche Issues mit dem Label `source: in-app-beta` und folgen derselben fachlichen Struktur wie die Formulare. Ein GitHub-Konto ist dafür nicht erforderlich.
+
+Jede Einreichung erhält die von GitHub vergebene Issue-Nummer als offiziellen Identifier: **VNZ-FR-`<nummer>`** für Feature Requests, **VNZ-BUG-`<nummer>`** für Bug Reports. Es gibt keinen getrennten Nummernkreis — die Nummern teilen sich den Issue-Zähler dieses Repositories.
+
 ## Fehler melden
 
 Bitte nutze das Formular **Bug Report** unter [Issues](../../issues/new/choose). Veröffentliche dabei keine personenbezogenen Daten, Zugangsdaten, Tokens, privaten Reisedaten oder sicherheitskritischen Informationen.
@@ -49,6 +55,16 @@ Die Roadmap ist eine Orientierung und keine verbindliche Lieferzusage. Prioritä
 - `status: in-progress`
 - `status: released`
 - `status: not-planned`
+
+Bug Reports durchlaufen zusätzlich unter anderem:
+
+- `status: needs-info`
+- `status: confirmed`
+- `status: fixed` (mit öffentlicher Angabe „Behoben ab Version X.Y")
+- `status: cannot-reproduce`
+- `duplicate`
+
+Die technische Bearbeitung erfolgt in privaten Entwicklungs-Repositories; öffentliche Issues enthalten keine internen Links oder Architekturdetails.
 
 ## Produktbereiche
 
