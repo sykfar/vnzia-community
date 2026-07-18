@@ -4,24 +4,46 @@ In diesem Dokument werden öffentlich relevante Änderungen an Vnzia zusammengef
 
 Interne Refactorings, Architekturänderungen, Sicherheitsdetails und nicht öffentliche Entwicklungsstände werden hier nicht dokumentiert.
 
-## Unreleased
+Jeder App-Build bekommt einen eigenen Abschnitt und wird zusätzlich als
+[GitHub Release](../../releases) mit dem Tag `build-<nummer>` veröffentlicht.
+Wie das abläuft, steht in [RELEASING.md](RELEASING.md).
 
-### Added
+## Build 119 — 2026-07-18
+
+### Neu
+
+- **Farbschema wählbar:** Hell, Dunkel oder dem System folgend — in den Einstellungen unter „Darstellung".
+- **Sprache wählbar:** Deutsch (Standard) und Englisch. Französisch, Spanisch und Italienisch sind bereits sichtbar und folgen in Kürze.
+
+### Verbessert
+
+- Durchgängig deutsche Beschriftungen, unter anderem die Kamera-Abfrage beim Verbinden des Tagebuchs.
+
+## Build 118 — 2026-07-17
+
+### Neu
+
+- **Handbuch:** eine geführte Tour durch alle Funktionen — in der App zum Nachlesen (auch offline) und öffentlich unter [venezia.picturefish.eu/handbuch.html](https://venezia.picturefish.eu/handbuch.html).
+
+## Build 117 — 2026-07-17
+
+### Neu
+
+- **Meine Einreichungen:** eingereichte Feature Requests und Bug Reports bleiben mit ihrer Nummer sichtbar und gleichen sich über iCloud auf deinen Geräten ab.
+
+## Build 116 — 2026-07-17
+
+### Neu
+
+- **Feature vorschlagen** und **Problem melden** direkt aus der App — als öffentliches Issue hier im Repository, ganz ohne GitHub-Konto. Vor dem Senden siehst du genau, was geteilt wird.
+
+## Repository
 
 - Öffentliches Community-Repository für Feature Requests, Bug Reports und Roadmap
 - Strukturierte Formulare für Produktfeedback (Feature Request und Bug Report als Issue Forms)
-- Feature Requests und Bug Reports direkt aus der Vnzia-Beta-App (iOS und macOS) — erscheinen hier als Issues mit dem Label `source: in-app-beta`, Identifier-Schema `VNZ-FR-<nummer>` / `VNZ-BUG-<nummer>`
 - Vertraulicher Meldeweg für Sicherheitsprobleme über GitHubs „Privately report a security vulnerability"
 - Status-, Quellen- und Plattform-Labels für den öffentlichen Triage-Prozess
 - Öffentliche Produkt-Roadmap
-
-### Changed
-
-- Noch keine öffentlich dokumentierten Änderungen
-
-### Fixed
-
-- Noch keine öffentlich dokumentierten Fehlerbehebungen
 
 ---
 
